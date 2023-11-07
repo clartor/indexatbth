@@ -83,7 +83,7 @@ body {
         flex-direction: column;
         font-size: 12;
     }
-
+    
     .navbar {
         float: none;
         display: flex;
@@ -91,14 +91,19 @@ body {
         justify-content: space-around;
         margin: 0 !important;
     }
-
+    
     .info p {
         line-height: 17px;
     }
-
+    
     .info h2 {
         border-bottom: none;
         text-decoration: underline;
+        
+    }
+    
+    .pastProjectsRow {
+        flex-direction: column;
 
     }
     
